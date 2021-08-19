@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zcart:Online Shopping site</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+        <a href="index.html"><img src="zlogo.jpg" width= "80px" height="40px" class="logo"></a>
+		<div class="navlinks">
+	    <a class="ls" href="Login/Sign up" target="_blank">Login/Sign Up</a>
+		<a href="about.html" target="_blank">About Us</a>    
+		<a href="contact.html" target="_blank">Contact Us</a>
+		</div>			
+	</nav>
+    <h2 class="welcome">Zcart.com:Your one stop online shop</h2>
+
+<div class="navbar">
+  <a href="#home">Offers</a>
+  <a href="#news">Best Sellers</a>
+  <div class="dropdown">
+    <button class="dropbtn">Product Categories
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="electronics.html">Electronics</a>
+      <a href="clothing.html">Clothing</a>
+      <a href="home.html">Home/Kitchen</a>
+    </div>
+  </div>
+</div>
+
+<h1>Add new Address</h1>
+
+
+<form action="done.html">
+
+    <label>Country/Region</label><br>
+        <select id="country">
+          <option>--SELECT COUNTRY--</option>
+          <option>INDIA</option>
+          <option>USA</option>
+          <option>CANADA</option>
+          <option>FRANCE</option>
+        </select><br><br>
+
+    <label>Full Name(First and Last name):</label><br>
+    <input type="text" name="full name" placeholder="Full name" required><br><!-- no closing tag for input-->
+    
+    <label>Mobile no.</label><br>
+    <input type="number" name="number" placeholder="10 Digit mobile number" required><br>
+  
+    <label>Pin Code</label><br>
+    <input type="number" name="pincode" placeholder="6 Digits [0-9] PIN Code"><br>
+       
+        <label>Flat, House no., Building, Company, Apartment</label><br>
+        <textarea rows="5" cols="30"></textarea><br>
+
+        <label>Area, Colony, Street, Sector, Village</label><br>
+        <textarea rows="5" cols="30"></textarea><br>
+
+        <label>Landmark</label><br>
+        <textarea rows="5" cols="30" placeholder="EG. Near AIIMS Flyover, Behind Metro Mall"></textarea><br>
+
+        <label>Town/City</label><br>
+        <textarea rows="5" cols="30"></textarea><br>
+
+        <label>State</label><br>
+        <select id="state">
+          <option>--SELECT STATE--</option>
+          <option>HARYANA</option>
+          <option>BIHAR</option>
+          <option>CHANDIGARH</option>
+          <option>DELHI</option>
+        </select><br><br>
+
+       <hr>
+
+       <h1>Payment: Debit/Credit Card Details</h1>
+
+       <label>Full Name On Card:</label><br>
+       <input type="text" name="full name" placeholder="Full name" required><br>
+
+       <label>Card Number:</label><br>
+       <input type="number" name="cnumber" placeholder="16 Digit Card Number" required><br>
+
+       <label>Expiry Date:</label><br>
+       <input type="text" name="expiry" placeholder="Expiry (MM/YY)" required><br>
+
+       <label>CVV:</label><br>
+       <input type="number" name="cvv" placeholder="3 DIGIT CVV" required><br>
+
+
+      <input type="submit" name="submit" value="DONE"><br>
+      <button type="reset">RESET</button> 
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
